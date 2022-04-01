@@ -1,0 +1,117 @@
+* {
+  font-family: 'Roboto', sans-serif;
+
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+:root {
+  --text: #0F1419;
+  --icon-text: #536471;
+  --border: #DADDDF;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
+
+.container-tweet {
+  width: 591px;
+  height: 161px;
+
+  display: flex;
+  border: 1px solid var(--border)
+}
+
+.image {
+  margin: 17px 12px 96px 17px;
+}
+
+.verify-icon {
+  width: 15px;
+  height: 15px;
+
+  margin-left: 3px;
+}
+
+.header {
+  margin-top: 17px;
+  font-size: 15px;
+  display: flex;
+}
+
+.hashtag-nike {
+  color: var(--icon-text);
+  margin-left: 6px;
+}
+
+.dot {
+  width: 3px;
+  height: 3px;
+
+  background-color: var(--icon-text);
+  display: inline-block;
+
+  margin: 7px 5px;
+  border-radius: 50%;
+}
+
+.date {
+  color: var(--icon-text);
+}
+
+.main {
+  width: 85%;
+}
+
+.first-paragraph {
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+.second-paragraph {
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.fotter {
+  margin-top: 15px;
+  margin-bottom: 19px;
+  vertical-align: middle;
+  font-size: 13px;
+  width: 81%;
+  display: flex;
+  justify-content: space-between;
+  color: var(--icon-text);
+}
+
+.comments {
+ width: 15px;
+ height: 13.49px;
+ margin-right: 17px;
+}
+
+.retweet {
+  width: 15px;
+  height: 15px;
+  margin-right: 18px;
+}
+
+.favorite {
+  width: 15px;
+  height: 13.08px;
+  margin-right: 21px;
+}
+
+.share {
+  width: 13px;
+  height: 14.44px;
+}
+
